@@ -1,0 +1,252 @@
+.alfresco {
+	color: #333;
+	font-size: 13px;
+}
+.alfresco.mysites-list {
+	background-color: #f9f9f9;
+	width: 199px;
+	border-right: 1px solid #d8d8d8;
+}
+.alfresco.myfiles-list {
+	border-left: 1px solid #C8C8C8;
+}
+.mysites-list .sc-list-item-view {
+	background: sc_static('images/arrow.png') no-repeat 100% 53% transparent;
+	border-bottom: 1px solid #e8e8e8;
+}
+.myfiles-list .sc-list-item-view {
+	border-bottom: 1px solid #e8e8e8;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.alfresco.mysites-list .sc-collection-item.sel,
+.alfresco.myfiles-list .sc-collection-item.sel {
+	background: sc_static('images/arrow-sel.png') no-repeat 100% 53% #ccc;
+}
+
+
+.alfresco.sc-grid-view .sc-collection-item {
+}
+
+.alfresco.sc-grid-view .sc-collection-item.sel {
+	color: #333;
+	background-color: #ccc;
+}
+.mysites-list label {
+	font-weight: bold;
+	font-size: 16px;
+	left: 12px;
+}
+
+.alfresco.toolbar {
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+			color-stop(0.08, rgb(0,0,0)),
+			color-stop(0.64, rgb(48,48,48))
+	);
+	background-image:
+			-moz-linear-gradient(
+	    center bottom,
+			rgb(0,0,0) 8%,
+		  rgb(48,48,48) 64%
+	);
+}
+
+.alfresco.toolbar {
+	text-shadow: none;
+	border-bottom: 1px solid rgb(0,0,0);
+}
+
+.alfresco.toolbar .alfresco.label {
+	color: #f9f9f9;
+	font-size: 18px;
+}
+
+.appno-header {
+	background: black sc_static('images/bg-header.jpg') no-repeat bottom left;
+}
+
+
+/* Main container */
+#sc863 {
+	background: sc_static('images/bg-body.png') repeat top center;
+}
+
+.myfiles-list .item-name {
+	padding:0 5px;
+	word-wrap: break-word;
+
+}
+.browser-item {
+	height: 120px;
+	width: 100%;
+	margin-bottom: 10px;
+	background: sc_static('images/icons/docu.png') no-repeat top center;
+}
+
+.browser-item.item-folder {
+	background: sc_static('images/icons/folder.png') no-repeat top center;
+}
+
+.browser-item.item-file {
+	background: sc_static('images/icons/docu.png') no-repeat top center;
+}
+
+.browser-item.item-png {
+	background: sc_static('images/icons/png.png') no-repeat top center;
+}
+
+.browser-item.item-jpg {
+	background: sc_static('images/icons/jpeg.png') no-repeat top center;
+}
+
+.browser-item.item-mp4 {
+	background: sc_static('images/icons/mp4.png') no-repeat top center;
+}
+
+.browser-item.item-mp3 {
+	background: sc_static('images/icons/mp3.png') no-repeat top center;
+}
+
+.browser-item.item-doc {
+	background: sc_static('images/icons/doc.png') no-repeat top center;
+}
+
+.browser-item.item-pdf {
+	background: sc_static('images/icons/pdf.png') no-repeat top center;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+.container .item-name {
+	width: 100%;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.8);
+	padding-top: 5px;
+	-moz-text-shadow: 0 1px 0 #FFFFFF;
+	-webkit-text-shadow: 0 1px 0 #FFFFFF;
+	text-shadow: 0 1px 0 #FFFFFF;
+	
+}
+
+/*
+.alfresco .button {
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0.2, rgb(105,17,17)),
+	    color-stop(0.6, rgb(140,32,32)),
+	    color-stop(0.8, rgb(173,35,35))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(105,17,17) 20%,
+	    rgb(140,32,32) 60%,
+	    rgb(173,35,35) 80%
+	);
+
+}
+*/
+
+.sc-list-item-view .sc-outline {
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(209,209,209)),
+    color-stop(0.52, rgb(240,240,240))
+	);
+	background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(209,209,209) 0%,
+    rgb(240,240,240) 52%
+	)	;
+	border:1px solid silver;
+	border-width:1px 0;
+	border-color:#FFF silver #bbb;
+}
+
+
+.sc-list-item-view.sel .sc-outline {
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(23,23,23)),
+    color-stop(0.52, rgb(79,79,79))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(23,23,23) 0%,
+    rgb(79,79,79) 52%
+);
+	border-color:black silver silver;
+}
+
+
+.sel .sc-outline label {
+	text-shadow: #111 1px 1px 4px;
+}
+
+.sc-outline label {
+	text-shadow: #eee 1px 1px 4px;
+}
+
+.overlay {
+	opacity: 1;
+}
+
+/****** btns ********/
+
+.ace.sc-regular-size.button > .left {
+	background-image: sc_static('images/btn-black-left.png');
+}
+
+.ace.sc-regular-size.button > .middle {
+	background-image: sc_static('images/btn-black-mid.png');
+}
+
+.ace.sc-regular-size.button > .right {
+	background-image: sc_static('images/btn-black-right.png');
+}
+
+.ace.sc-regular-size.point-left.button > .left {
+	background-image: sc_static('images/btn-black-left-point.png');
+}
+
+.ace.sc-regular-size.button.active > .left {
+	background-image: sc_static('images/btn-black-active-left.png');
+}
+
+.ace.sc-regular-size.button.active > .middle {
+	background-image: sc_static('images/btn-black-active-mid.png');
+}
+
+.ace.sc-regular-size.button.active > .right {
+	background-image: sc_static('images/btn-black-active-right.png');
+}
+
+.ace.sc-regular-size.point-left.button.active > .left {
+	background-image: sc_static('images/btn-black-active-left-point.png');
+}
+
+.ace.sc-regular-size.button label{
+	color:white;
+	text-shadow: #111 2px 1px 1px;
+}
+
+.subscription-item-select .sc-list-item-view.has-checkbox label {
+	margin-left:15px;
+	font-size:120%;
+}
+
+.subscription-item-select .sc-list-item-view.has-checkbox.sel label {
+	color:white;
+}
